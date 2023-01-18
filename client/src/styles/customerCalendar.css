@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+}
+
+.CustomerDetailsSaveButton {
+    padding: 5px 30px;
+    font-size: 120%;
+    border: none;
+    background-color: #14c210;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 250px;
+    left: -210px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.calendar {
+    height: 350px;
+    font-size: larger;
+    width: 500px;
+}
+
+.calendarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendarContainerBody {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    width: 100%;
+    top: 50px;
+}
+
+.calendarContainerHeader {
+    display: flex;
+    padding: 50px;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.slotTimings {
+    margin: 0 60px;
+    border: 1px solid var(--light);
+    height: 350px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+}
+
+.noSlotsAvailable {
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.list {
+    list-style: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.list:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 0 1px grey;
+}
+
+.slotTimings::-webkit-scrollbar {
+    width: 3px;
+    /* width of the entire scrollbar */
+}
+
+.slotTimings::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 1px solid rgb(2, 2, 2);
+    /* creates padding around scroll thumb */
+}
+
+.meetDetailsContainer {
+    border: 1px solid var(--light);
+    margin-right: 60px;
+    width: 280px;
+    height: 150px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+}
+
+.meetName {
+    position: relative;
+    top: 10px;
+}
+
+.meetNameIcon {
+    color: #1888e1;
+    font-size: 130%;
+    position: relative;
+    top: 6px;
+}
+
+.meetCreatedBy,
+.meetDuration {
+    position: relative;
+    top: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.meetCreatedByIcon,
+.meetDurationIcon {
+    margin-right: 5px;
+}
+
+.guidelines h4 {
+    font-size: 140%;
+    margin-top: 15px;
+    margin-left: 55px;
+    color: #495057;
+}
+
+.guidelines h5 {
+    font-size: 100%;
+    margin-left: 80px;
+    color: #495057;
+}
+
+.availabilityHeader h2 {
+    font-size: 170%;
+    margin: 15px;
+}

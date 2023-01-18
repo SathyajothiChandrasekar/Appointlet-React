@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+}
+
+option {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--light);
+}
+
+#createmeetimage {
+    position: relative;
+    top: 30px;
+    border-radius: 70px;
+}
+
+#createmeetbackground {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(27, 143, 238, 0.7);
+    z-index: 1;
+}
+
+#creatmeetcontainer {
+    background-color: whitesmoke;
+    position: absolute;
+    display: flex;
+    height: 670px;
+    width: 500px;
+    left: 520px;
+    top: 50px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+#ownercreatemeetform {
+    height: 600px;
+    width: 400px;
+    display: flex;
+}
+
+#labelmeettype {
+    position: relative;
+    left: -18px;
+}
+
+#durationofmeet {
+    position: relative;
+    left: -45px;
+}
+
+#Availabledayslabel {
+    position: relative;
+    left: -110px;
+}
+
+#meetnamediv {
+    margin: 5px;
+    position: relative;
+    left: -11px;
+}
+
+#durationdiv {
+    position: relative;
+    left: 27px;
+    margin: 5px;
+}
+
+#meettype {
+    margin-left: 10px;
+    position: relative;
+    left: 47px;
+    border: none;
+    background: transparent;
+    width: 150px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+#durationOfMeet {
+    margin-left: 10px;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 150px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.week input[name="day"] {
+    position: relative;
+    left: -140px;
+    top: 15px;
+    margin: 5px;
+}
+
+#dayslabel {
+    position: relative;
+    top: -7px;
+    left: -40px;
+    display: flex;
+}
+
+.daysofweek {
+    height: 0px;
+}
+
+.week {
+    position: relative;
+    left: 50px;
+}
+
+#days {
+    width: 70px;
+    top: -27px;
+    left: 60px;
+    position: relative;
+    padding: 3px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+
+small {
+    position: relative;
+    color: var(--grey);
+
+    left: 15px;
+}
+
+#saveButtonForStoring {
+    border: none;
+    background-color: var(--green-dark);
+    color: white;
+    padding: 8px 25px;
+    font-size: large;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 140px;
+    font-weight: 600;
+}
+
+#saveButtonForStoring:hover {
+    transform: scale(1.08);
+    background-color: rgb(0, 128, 0, 0.9);
+    cursor: pointer;
+}
+
+#meettype:hover,
+#durationOfMeet:hover,
+.week input[name="start"],
+input[name="end"]:hover,
+.week input[name="day"]:hover {
+    cursor: pointer;
+}
+
+strong {
+    color: var(--darkdarkblue);
+}
+
+.meettypespan {
+    color: red;
+    position: relative;
+    left: 100px;
+}
+
+.backforform {
+    position: absolute;
+    left: 460px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.backforform:hover {
+    color: red;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e5186f;
+    --red: #c40404;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --success: #2ecc71;
+    --warning: #ffc107;
+    --danger: #c40404;
+    --secondary: #495057;
+    --light: #ced4da;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#loginlogo {
+    position: relative;
+    top: 40px;
+    height: 100px;
+    width: 100px;
+    left: -8px;
+}
+
+#formDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formDetails input {
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+#loginheader {
+    margin-top: 80px;
+}
+
+#accountexist {
+    left: auto;
+    top: auto;
+}
+
+.nilAccount {
+    color: red;
+}
+
+#signinbutton {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--blue);
+    padding: 15px 70px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#signinbutton:hover {
+    transform: scale(1.05);
+    background-color: var(--blue-dark);
+}
+
+#mailblank {
+    color: var(--danger);
+    position: relative;
+    left: -100px;
+    display: none;
+}
+
+#passwordblank {
+    color: var(--danger);
+    position: relative;
+    left: 15px;
+    display: none;
+}
+
+.mailspan,
+.passwordspan {
+    color: red;
+}
+
+.invalidspan {
+    color: red;
+    display: none;
+}

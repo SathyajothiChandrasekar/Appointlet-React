@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    --blue: #1f9aff;
+    --blue-dark: #1888e1;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+    --darkdarkblue: #111d57;
+}
+
+body {
+    background-color: #e8f5ff;
+}
+
+#maincontent {
+    top: 50px;
+    margin: 80px;
+    display: flex;
+    position: relative;
+}
+
+#cloud {
+    width: 100%;
+    position: absolute;
+}
+
+#contentContainer h4 {
+    font-size: 380%;
+    text-align: center;
+    position: relative;
+    font-weight: 900;
+    color: var(--darkdarkblue);
+}
+
+#description {
+    left: 10;
+    top: 200px;
+    display: flex;
+    color: #324682;
+    text-align: start;
+    position: absolute;
+    background-color: transparent;
+}
+
+#contentContainer span {
+    color: #2a9dfc;
+}
+
+#bookingSlotsButton {
+    top: 340px;
+    left: -0px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    display: flex;
+    font-size: 22px;
+    color: var(--white);
+    font-weight: bold;
+    position: absolute;
+    border-radius: 15px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #00c853;
+}
+
+#bookingSlotsButton:hover {
+    transform: scale(1.05);
+    background-color: #00c85380;
+}
+
+#picture {
+    top: -100px;
+    width: 800px;
+    height: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+#logo {
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#appName {
+    top: -50px;
+    left: 110px;
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    position: relative;
+    color: var(--darkdarkblue);
+}
+
+a {
+    top: 40px;
+    left: 1300px;
+    position: relative;
+}
+
+#arrowicon {
+    top: 1px;
+    left: 10px;
+    font-size: medium;
+    position: relative;
+    background: transparent;
+}
+
+#mainfooter {
+    top: 60px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: var(--white);
+}
+
+#mainfooter h1 {
+    top: 20px;
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    justify-content: center;
+    color: var(--darkdarkblue);
+}
+
+#setups {
+    position: relative;
+    top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+#setups h3 {
+    position: relative;
+    left: 30px;
+    color: var(--secondary);
+}
+
+#setup1,
+#setup2,
+#setup3 {
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    color: var(--gray-dark);
+}
+
+#footer h1 {
+    font-size: 350%;
+    position: relative;
+    color: var(--darkdarkblue);
+    background-color: transparent;
+}
+
+#footer h2 {
+    top: 80px;
+    width: 100vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: var(--secondary);
+}
+
+#footer {
+    top: 200px;
+    display: flex;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+#footerbutton1 {
+    top: 200px;
+    left: 600px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    display: flex;
+    font-size: 22px;
+    color: var(--white);
+    font-weight: bold;
+    position: absolute;
+    border-radius: 15px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #00c853;
+}
+
+#usesofapp {
+    height: 500px;
+    position: relative;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#usesofapp h1 {
+    top: 50px;
+    position: relative;
+    color: var(--darkdarkblue);
+    font-size: 350%;
+}
+
+#uses {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+#uses p {
+    background-color: rgb(30, 155, 255, 0.3);
+    box-shadow: 1px 1px 2px 1px black;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+strong {
+    color: var(--darkdarkblue);
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+
+#lowerfooter {
+    background-color: rgb(72, 95, 213, 0.2);
+    height: 300px;
+}
+
+#footerlogo {
+    top: 50px;
+    left: 670px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#footerappName {
+    left: 730px;
+    width: 100px;
+    font-size: 30px;
+    position: relative;
+    color: var(--darkdarkblue);
+}
+
+#lowerfooter h5 {
+    width: 400px;
+    top: 20px;
+    left: 570px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 400px;
+    font-size: 20px;
+    color: var(--gray);
+}
+
+#lowerfooter h3 {
+    width: 400px;
+    color: var(--gray-dark);
+    position: relative;
+    top: 70px;
+    left: 600px;
+}
+
+#mainfooterspan {
+    color: #2a9dfc;
+}

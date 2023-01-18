@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --red: #c40404;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+    --darkdarkblue: #111d57;
+}
+
+.bookedBox {
+    background-color: white;
+    height: 35%;
+    width: 30%;
+    margin-right: 3%;
+    border: 1PX solid var(--light);
+    position: relative;
+    left: 25px;
+    top: 50px;
+    margin-bottom: 31px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bookedEventsName {
+    height: 29%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.customerHrTag {
+    width: 100%;
+    top: -2px;
+}
+
+.bookedEventsBody {
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.columnOne {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.columnTwo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.customerEvent {
+    position: relative;
+    margin: 20px 10px;
+}
+
+.customerEventIcon {
+    color: #1888e1;
+    font-size: 130%;
+    top: 7px;
+    position: relative;
+}
+
+.customerHr {
+    position: relative;
+    top: -2px
+}
+
+.customerName,
+.customerDuration,
+.customerDate,
+.customerMobile {
+    margin: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.customerNameIcon,
+.customerDurationIcon,
+.customerDateIcon,
+.customerMobileIcon {
+    margin-right: 5px;
+    font-size: 90%;
+}

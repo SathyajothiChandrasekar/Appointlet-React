@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+}
+
+.customerDashBoardcontainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.customerVerticalContainer {
+    background-color: var(--blue-dark);
+    height: 100%;
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customerPageLogo {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.customerMainContainer {
+    height: 100%;
+    width: 93%;
+}
+
+.helpTextMain {
+    height: 10%;
+    width: 95%;
+    font-size: 130%;
+    display: flex;
+    align-items: center;
+}
+
+.meetingContainer {
+    height: 90%;
+    width: 97%;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.availableMeetText {
+    width: 95%;
+    height: 10%;
+    font-weight: 600;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.meetingContainer {
+    width: 95%;
+    height: 86%;
+    position: relative;
+    top: 2%;
+}
+
+.customerEventsSlots {
+    background-color: white;
+    height: 27%;
+    width: 31%;
+    margin-right: 2%;
+    border: 1px solid var(--light);
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 31px;
+}
+
+.meetContainer {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    background-color: rgb(24, 136, 225, 0.1);
+}
+
+.meetContainer::-webkit-scrollbar {
+    width: 3px;
+    /* width of the entire scrollbar */
+}
+
+.meetContainer::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 1px solid rgb(2, 2, 2);
+    /* creates padding around scroll thumb */
+}
+
+.CustomerDashboardEventName {
+    position: relative;
+    color: black;
+    margin-top: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.CustomerDashboardEventNameIcon {
+    color: #1888e1;
+    font-size: 130%;
+    top: 7px;
+    position: relative;
+}
+
+.CustomerDashboardEventBy {
+    position: relative;
+    margin-top: 10px;
+    left: 35px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.CustomerDashboardEventDuration {
+    position: relative;
+    margin-top: 10px;
+    left: 43px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.CustomerDashboardEventByIcon {
+    position: relative;
+    left: -4px;
+    font-size: 85%;
+}
+
+.CustomerDashboardEventDurationIcon {
+    position: relative;
+    left: -12px;
+    top: 1px;
+    font-size: 85%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    color: black;
+    font-size: 70%;
+    position: relative;
+    left: 35px;
+    top: 7px;
+    margin-left: 5px;
+    padding: 1px 3px;
+    cursor: pointer;
+}
+
+.CustomerDaysIcon {
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 10px;
+}
+
+.searchBox input {
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 80%;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.searchBox input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background-size: contain;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.searchBox span {
+    font-size: 80%;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.customerEventsSlotsTail {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 40%;
+    top: 30%;
+
+}

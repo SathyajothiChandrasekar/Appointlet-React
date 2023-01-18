@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --red: #c40404;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+    --darkdarkblue: #111d57;
+}
+
+.eventsSlots {
+    background-color: white;
+    height: 40%;
+    width: 30%;
+    margin-right: 3%;
+    border: 1PX solid var(--light);
+    position: relative;
+    left: 25px;
+    top: 50px;
+    margin-bottom: 31px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.dashboardEventName {
+    position: relative;
+    color: black;
+    margin-top: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.dashboardEventNameIcon {
+    color: #1888e1;
+    font-size: 130%;
+    top: 7px;
+    position: relative;
+}
+
+.dashboardEventBy {
+    position: relative;
+    margin-top: 10px;
+    left: 35px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.dashboardEventDuration {
+    position: relative;
+    margin-top: 10px;
+    left: 43px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.dashboardEventByIcon {
+    position: relative;
+    left: -4px;
+    font-size: 85%;
+}
+
+.dashboardEventDurationIcon {
+    position: relative;
+    left: -12px;
+    top: 1px;
+    font-size: 85%;
+}
+
+hr {
+    position: relative;
+    top: 30px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    color: black;
+    font-size: 70%;
+    position: relative;
+    left: 35px;
+    top: 7px;
+    margin-left: 5px;
+    padding: 1px 3px;
+    cursor: pointer;
+}
+
+.daysIcon {
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 10px;
+}
+
+
+.deleteButton,
+.editButton {
+    padding: 5px 10px;
+    font-size: medium;
+    margin: 4px;
+    border-radius: 3px;
+    border: 1px solid var(--light);
+    background-color: rgb(30, 155, 255, 0.2);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+.editButton:hover {
+    background-color: rgb(30, 155, 255, 0.8);
+}
+
+.editDelete {
+    position: relative;
+    top: 32px;
+    left: 300px;
+    width: 100px;
+}
+
+.deleteContainer {
+    background-color: rgb(30, 155, 255, 0.8);
+    height: 79vh;
+    width: 90vw;
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+}
+
+.deletePopupContainer {
+    height: 250px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10PX;
+    position: absolute;
+    left: 450px;
+    z-index: 1;
+    top: 120px;
+    text-align: center;
+    justify-content: center;
+}
+
+.delButton {
+    position: relative;
+    width: 300px;
+    text-align: center;
+    top: 25px;
+    left: 150px;
+}
+
+.deleteCancel,
+.deleteDelete {
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(30, 155, 255, 0.8);
+    cursor: pointer;
+}
+
+.deleteCancel:hover,
+.deleteDelete:hover {
+    background-color: rgb(24, 136, 225, 0.5);
+}
+
+.warning {
+    font-size: 80px;
+    position: relative;
+    color: RED;
+    left: calc((450px - 80px)/ 2);
+    top: -20px
+}

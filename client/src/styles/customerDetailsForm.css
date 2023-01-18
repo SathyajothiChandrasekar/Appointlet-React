@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    --blue: #1e9bff;
+    --blue-dark: #1888e1;
+    --green: #2ecc71;
+    --green-dark: #14c210;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --primary: #1e9bff;
+    --secondary: #495057;
+    --light: #ced4da;
+}
+
+#customerImage {
+    border-radius: 100px;
+    position: relative;
+    top: 30px;
+}
+
+.customerForm {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(27, 143, 238, 0.7);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detailsForm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 490px;
+    width: 380px;
+    border-radius: 10px;
+
+}
+
+.bookedNotification {
+    top: 600px;
+    left: 15px;
+
+}
+
+#nameLabel {
+    position: relative;
+    top: 20px;
+}
+
+#formContainer label {
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#customerDetailSaveButton {
+    border: none;
+    background-color: rgb(0, 128, 0, .5);
+    color: white;
+    padding: 8px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+}
+
+#customerDetailSaveButton:hover {
+    transform: scale(1.07);
+    background-color: rgb(0, 128, 0, 0.8);
+}
+
+#customerName,
+#customerMail,
+#customerMobile {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+.customerNameSpan,
+.customerMobileSpan,
+.customerMailSpan {
+    color: red;
+}
+
+.customerNameSpan {
+    position: relative;
+    top: -10px;
+}
+
+.customerMailSpan {
+    position: relative;
+    top: -10px;
+}
+
+.customerMobileSpan {
+    position: relative;
+    top: 12px;
+}
+
+.cancelForm {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: larger;
+}
+
+.cancelForm :hover {
+    transform: scale(1.05);
+    color: red;
+}
